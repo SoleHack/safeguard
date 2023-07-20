@@ -1,0 +1,26 @@
+
+
+    <form id="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" style="color: #6c757d;">
+
+        <input type=hidden name="oid" value="00D3i000000usd0">
+        <input type=hidden name="retURL" value="https://safeguardyourestate.com">
+
+        <div class="mb-3" >
+          <label class="form-label" for="name">What is Your First Name:</label>
+          <input id="first_name" maxlength="40" name="first_name" size="20" type="text" class="form-control border-2" placeholder="Enter Your First Name" required >
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="name">What is Your Last Name:</label>
+          <input id="last_name" maxlength="80" name="last_name" size="20" type="text" class="form-control border-2" placeholder="Enter Your Last Name" required >
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="email">Your Email Address:</label>
+          <input id="email" maxlength="80" name="email" size="20" type="text" class="form-control border-2" placeholder="Enter Your Email" required >
+        </div>
+        <div class="mb-3">
+          <input id="email" name="email" type="email" class="form-control border-2" placeholder="Enter Your Email" hidden="true" >
+        </div>
+        <div class="d-grid mt-4">
+          <input type="submit" name="submit" class="btn btn-primary">
+        </div>
+      </form>
